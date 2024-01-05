@@ -1,0 +1,32 @@
+header {
+    height: 4rem;
+    width: 80%;
+    border-radius: 1rem;
+    background-color: rgba(var(--primary), 0.05);
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem;
+
+    span {
+        font-family: 'Dancing Script', cursive;
+        color: rgba(var(--white), 0.75);
+        font-size: 1.675em;
+    }
+
+    nav>ul {
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+        font-size: 1.25rem;
+
+        a {
+            color: rgba(var(--white), 0.5);
+
+            &.active {
+                color: rgba(var(--primary), 0.5);
+            }
+        }
+    }
+}
