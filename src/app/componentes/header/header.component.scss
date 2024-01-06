@@ -1,6 +1,5 @@
 header {
     height: 4rem;
-    width: 80%;
     border-radius: 1rem;
     background-color: rgba(var(--primary), 0.05);
     margin: 2rem auto;
@@ -19,14 +18,14 @@ header {
         display: flex;
         list-style: none;
         gap: 1rem;
-        font-size: 1.25rem;
+        font-size: 1.00rem;
 
         a {
             color: rgba(var(--white), 0.5);
-
-            &.active {
+            &.active, &:hover {
                 color: rgba(var(--primary), 0.5);
             }
+
         }
     }
 }
