@@ -1,4 +1,6 @@
 header {
+    width: var(--limit);
+    margin: auto;
     height: 4rem;
     border-radius: 1rem;
     background-color: rgba(var(--primary), 0.05);

@@ -1,8 +1,11 @@
 #apresentacao {
+    width: var(--limit);
+    margin: auto;
     display: flex;
     height: 32.5rem;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 2rem;
 
     .saudacoes {
         width: 30%;
@@ -73,8 +76,8 @@
         img {
             position: relative;
             z-index: 2;
-            width: 70%;
-            height: 70%;
+            width: 25rem;
+            height: 25rem;
         }
 
         .avatar-tec {
@@ -118,12 +121,12 @@
             display: flex;
             justify-content: end;
             gap: 0.5rem;
-            color: rgba(var(--primary), 0.50);
+            color: rgba(var(--primary), 0.80);
             font-size: 1.125rem;
             font-weight: 700;
 
             &:hover {
-                color: rgba(var(--primary), 0.80);
+                color: rgba(var(--primary), 0.50);
             }
         }
     }

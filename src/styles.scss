@@ -21,3 +21,7 @@ a{
 body{
     background-color: var(--tertiary);
 }
+.linha{
+    border-bottom: rgba(var(--primary), 0.10) solid 1px;
+    ;
+}
