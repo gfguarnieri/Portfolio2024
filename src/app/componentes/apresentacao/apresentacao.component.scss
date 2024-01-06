@@ -1,46 +1,67 @@
-#apresentacao{
+#apresentacao {
     display: flex;
     height: 32.5rem;
     align-items: center;
     justify-content: space-between;
-    .saudacoes{
-        width: 25%;
+
+    .saudacoes {
+        width: 30%;
         flex: 1;
         display: flex;
         flex-direction: column;
         flex-basis: auto;
         gap: 1.25rem;
-        .top-text{
+
+        .top-text {
             width: 11rem;
             padding: 0.25rem 0.625rem;
             font-size: 1.25rem;
             background-color: rgba(var(--primary), 0.10);
             border-radius: 1rem;
             color: rgba(var(--primary), 1);
-            span{
+
+            span {
                 padding: 0.25rem;
                 font-weight: 700;
             }
         }
-        .nome{
+
+        .nome {
             color: rgb(var(--white));
             font-size: 3.25rem;
             font-weight: 700;
         }
-        .cargo{
+
+        .cargo {
             color: rgba(var(--white), 0.5);
         }
-        .links-saudacoes{
+
+        .links-saudacoes {
             display: flex;
             gap: 1rem;
+
+            a {
+                img {
+                    border: solid transparent 2px;
+                    border-radius: 50%;
+
+                    &:hover {
+                        border: solid rgb(var(--white)) 2px;
+                    }
+                }
+            }
+
+
         }
     }
-    .avatar{
+
+    .avatar {
         width: 50%;
         display: flex;
         justify-content: center;
         position: relative;
-        .contorno-avatar{
+
+        .contorno-avatar {
             background-color: rgba(var(--primary), 0.50);
             position: absolute;
             filter: blur(0.165rem);
@@ -48,26 +69,76 @@
             width: 25rem;
             height: 25rem;
         }
-        img{
+
+        img {
             position: relative;
             z-index: 2;
-            width: 25rem;
+            width: 70%;
+            height: 70%;
+        }
+
+        .avatar-tec {
+            border-radius: 50%;
+            position: absolute;
+            animation: pulse 2s infinite;
+            color: rgb(var(--white));
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 4rem;
+            width: 7rem;
+            height: 7rem;
+            background-color: var(--secondary);
+            z-index: 3;
+
+            &.csharp {
+                transform: translateX(-150%) scale(1.1);
+            }
+
+            &.angular {
+                transform: translate(170%, 90%) scale(0.75);
+            }
+
+            &.sqlserver {
+                transform: translate(-170%, 200%) scale(0.75);
+            }
+
+            &.ionic {
+                transform: translate(170%, 275%) scale(1);
+            }
         }
     }
-    .cv{
-        width: 25%;
+
+    .cv {
+        width: 30%;
         text-align: right;
         padding-right: 2rem;
-        a{
+
+        a {
             display: flex;
             justify-content: end;
             gap: 0.5rem;
             color: rgba(var(--primary), 0.50);
             font-size: 1.125rem;
             font-weight: 700;
-            &:hover{
-                color: rgba(var(--primary), 0.80);   
+
+            &:hover {
+                color: rgba(var(--primary), 0.80);
             }
         }
     }
+}
+
+@keyframes pulse {
+	0% {
+		box-shadow: 0 0 0 0 rgba(var(--primary), 0.5);
+	}
+	
+	70% {
+		box-shadow: 0 0 0 20px rgba(var(--primary), 0);
+	}
+	
+	100% {
+		box-shadow: 0 0 0 0 rgba(var(--primary), 0);
+	}
 }
