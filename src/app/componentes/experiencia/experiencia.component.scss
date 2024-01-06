@@ -1,0 +1,67 @@
+#experiencia{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 50rem;
+    color: rgb(var(--white));
+    margin: 4rem auto;
+    .principais-icones{
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+        width: 100%;
+        .item{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 16px;
+            border: 1px solid rgba(var(--primary), 0.2);
+            padding: 1.5rem 1rem;
+            width: 15rem;
+            &:nth-of-type(2){
+                background: rgba(var(--primary), 0.2);
+            }
+            i{
+                font-size: 3.5rem;
+                color: rgba(var(--primary), 1);
+            }
+            .tempo{
+                position: relative;
+                top: 6px;
+                font-size: 0.875rem;
+            }
+            .cargo{
+                margin-top: 5px;
+                font-size: 1.6rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .principais-textual{
+        background-color: rgba(var(--primary), 0.1);
+        height: 7rem;
+        border-radius: 1rem;
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+        width: 100%;
+        .item{
+            color: rgba(var(--primary), 1);
+            width: 15rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .titulo{
+                position: relative;
+                top: 2px;
+                font-size: 0.875rem;
+            }
+            .destaque{
+                font-size: 2rem;
+                font-weight: bold;
+            }
+        }
+    }
+}
