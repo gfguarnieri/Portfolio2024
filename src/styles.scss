@@ -15,13 +15,35 @@
     font-weight: 400;
     transition: all 200ms;
 }
+
 a{
     text-decoration: none;
 }
+
 body{
     background-color: var(--tertiary);
 }
+
 .linha{
     border-bottom: rgba(var(--primary), 0.10) solid 1px;
     ;
+}
+.titulo {
+    color: rgb(var(--white));
+    font-size: 3.25rem;
+    font-weight: 700;
+}
+
+.top-text {
+    width: 11rem;
+    padding: 0.25rem 0.625rem;
+    font-size: 1.25rem;
+    background-color: rgba(var(--primary), 0.10);
+    border-radius: 1rem;
+    color: rgba(var(--primary), 1);
+
+    span {
+        padding: 0.25rem;
+        font-weight: 700;
+    }
 }

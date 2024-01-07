@@ -15,26 +15,6 @@
         flex-basis: auto;
         gap: 1.25rem;
 
-        .top-text {
-            width: 11rem;
-            padding: 0.25rem 0.625rem;
-            font-size: 1.25rem;
-            background-color: rgba(var(--primary), 0.10);
-            border-radius: 1rem;
-            color: rgba(var(--primary), 1);
-
-            span {
-                padding: 0.25rem;
-                font-weight: 700;
-            }
-        }
-
-        .nome {
-            color: rgb(var(--white));
-            font-size: 3.25rem;
-            font-weight: 700;
-        }
-
         .cargo {
             color: rgba(var(--white), 0.5);
         }
@@ -65,7 +45,7 @@
         position: relative;
 
         .contorno-avatar {
-            background-color: rgba(var(--primary), 0.50);
+            background-color: rgba(var(--primary), 0.2);
             position: absolute;
             filter: blur(0.165rem);
             border-radius: 50%;
