@@ -5,7 +5,6 @@ import { HeaderComponent } from './componentes/header/header.component';
 import { ApresentacaoComponent } from './componentes/apresentacao/apresentacao.component';
 import { ExperienciaComponent } from './componentes/experiencia/experiencia.component';
 import { SobreMimComponent } from './componentes/sobre-mim/sobre-mim.component';
-import { ProjetosComponent } from './componentes/projetos/projetos.component';
 import { TecnologiasComponent } from './componentes/tecnologias/tecnologias.component';
 import { TrajetoriaComponent } from './componentes/trajetoria/trajetoria.component';
 import { FooterComponent } from './componentes/footer/footer.component';
@@ -14,7 +13,7 @@ import { FooterComponent } from './componentes/footer/footer.component';
   selector: 'app-root',
   standalone: true,
   imports: [CommonModule, RouterOutlet, HeaderComponent, ApresentacaoComponent,
-    ExperienciaComponent, SobreMimComponent, ProjetosComponent, TecnologiasComponent,
+    ExperienciaComponent, SobreMimComponent, TecnologiasComponent,
     TrajetoriaComponent, FooterComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
