@@ -90,6 +90,10 @@
                 transform: translate(170%, 275%) scale(1);
             }
         }
+
+        &:hover{
+            transform: scale(1.05);
+        }
     }
 
     .cv {
