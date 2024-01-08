@@ -1,0 +1,12 @@
+footer{
+    width: var(--limit);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(var(--primary), 0.2);
+    margin: auto;
+    text-align: center;
+    padding: 2rem 0;
+    span, a{
+        color: rgba(var(--white), 0.5);
+    }
+}
