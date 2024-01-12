@@ -1,0 +1,33 @@
+#trajetoria{
+    width: var(--limit);
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    .top-text{
+        width: auto;
+    }
+    .tipo{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-top: 2rem;
+        gap: 1rem;
+        .area-profissional, .academica{
+            width: 50%;
+            text-align: center;
+        }
+        .descricao{
+            color: rgba(var(--white), 0.5);
+        }
+        .lista-itens{
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 2rem;
+        }
+    }
+}
