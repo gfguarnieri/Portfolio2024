@@ -2,9 +2,14 @@
     width: var(--limit);
     display: flex;
     padding: 4rem 0;
+    align-items: center;
+    justify-content: space-between;
     margin: auto;
+    h1{
+        font-size: 2rem;
+    }
     .area-imagem{
-        width: 40%;
+        width: 45%;
         text-align: center;
         img{
             width: 20rem;
@@ -14,6 +19,7 @@
     .area-descricao{
         display: flex;
         flex-direction: column;
+        width: 55%;
         gap: 1rem;
         p{
             color: rgba(var(--white), 0.5);

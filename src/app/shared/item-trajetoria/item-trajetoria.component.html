@@ -6,7 +6,7 @@
         {{ descricao }}
     </p>
     <div class="periodo">
-        <span class="inicio">{{ dataInicio?.toLocaleDateString("pt-BR") }}</span>
-        <span class="fim">{{ dataFim ? dataFim!.toLocaleDateString("pt-BR") : "Atualmente" }}</span>
+        <span class="inicio">{{ dataInicio ? (dataInicio!.getMonth()+1).toString().padStart(2, "0") + "-" +dataInicio!.getFullYear() : "Atualmente" }}</span>
+        <span class="fim">{{ dataFim ? (dataFim!.getMonth()+1).toString().padStart(2, "0") + "-" +dataFim!.getFullYear() : "Atualmente" }}</span>
     </div>
 </div>

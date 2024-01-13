@@ -15,11 +15,8 @@
             <span class="descricao">
                 2013 - atualmente
             </span>
-            <div class="lista-itens">
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="" [active]="true"></app-item-trajetoria>
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="dataInicioExemplo"></app-item-trajetoria>
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="dataInicioExemplo"></app-item-trajetoria>
-
+            <div class="lista-itens" *ngFor="let item of experienciaProfissionalList">
+                <app-item-trajetoria [titulo]="item.titulo" [descricao]="item.descricao" [dataInicio]="item.dataInicio" [dataFim]="item.dataFim" [active]="item.ativo"></app-item-trajetoria>
             </div>
         </div>
         <div class="academica">
@@ -29,11 +26,8 @@
             <span class="descricao">
                 2010 - atualmente
             </span>
-            <div class="lista-itens">
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="" [active]="true"></app-item-trajetoria>
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="dataInicioExemplo"></app-item-trajetoria>
-                <app-item-trajetoria titulo="Desenvolvedor Full-stack" descricao="Descricao" [dataInicio]="dataInicioExemplo" [dataFim]="dataInicioExemplo"></app-item-trajetoria>
-
+            <div class="lista-itens" *ngFor="let item of formacaoAcademicaList">
+                <app-item-trajetoria [titulo]="item.titulo" [descricao]="item.descricao" [dataInicio]="item.dataInicio" [dataFim]="item.dataFim" [active]="item.ativo"></app-item-trajetoria>
             </div>
         </div>
     </div>
