@@ -68,3 +68,21 @@
         }
     }
 }
+
+@media only screen and (max-width: 960px){
+    #experiencia{
+        width: 80%;
+        .principais-icones{
+            flex-wrap: wrap;
+        }
+        .principais-textual{
+            flex-wrap: wrap;
+            height: auto;
+            padding: 2rem;
+            gap: 1rem;
+            .item{
+                margin-top: 1rem;
+            }
+        }
+    }
+}
