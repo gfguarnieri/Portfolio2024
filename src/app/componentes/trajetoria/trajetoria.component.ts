@@ -67,7 +67,7 @@ export class TrajetoriaComponent {
     },
     {
       titulo: 'Etec Sales Gomes',
-      dataInicio: new Date('2014-01-01'),
+      dataInicio: new Date('2014-02-03'),
       ativo: true,
       descricao: 'Professor de Programação e Aplicativos Mobile, Programação e Algoritmos, Banco de Dados Relacional, Programação Web e Qualidade e Teste de Software. Além disso também atuei como coordenador do curso de Informática para Internet'
     },
@@ -87,15 +87,15 @@ export class TrajetoriaComponent {
     },
     {
       titulo: 'Qi Studio',
-      dataInicio: new Date('2013-01-01'),
-      dataFim: new Date('2013-01-01'),
+      dataInicio: new Date('2013-06-01'),
+      dataFim: new Date('2013-12-01'),
       ativo: false,
       descricao: 'Desenvolvedor full-stack: HTML, CSS, Javascript, PHP e MySql.'
     },
     {
       titulo: 'Faculdade de Tecnologia de Tatuí',
-      dataInicio: new Date('2011-01-01'),
-      dataFim: new Date('2012-01-01'),
+      dataInicio: new Date('2010-06-10'),
+      dataFim: new Date('2011-12-01'),
       ativo: false,
       descricao: 'Monitor de Linguagem de Programação Java; Monitor de Banco de Dados.'
     }

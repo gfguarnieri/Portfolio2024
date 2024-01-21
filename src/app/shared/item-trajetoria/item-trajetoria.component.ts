@@ -13,4 +13,9 @@ export class ItemTrajetoriaComponent {
   @Input({required: true}) dataInicio? : Date;
   @Input({required: true}) dataFim : Date | undefined;
 
+  ajusteMes(mes: number):String{
+    let listaMeses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro", "Dezembro"];
+    return listaMeses[mes];
+  }
+
 }
