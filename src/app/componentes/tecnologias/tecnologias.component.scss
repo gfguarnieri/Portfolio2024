@@ -28,6 +28,8 @@
 
 @media only screen and (max-width: 960px){
     #skills{
+        width: var(--limit);
+        margin: auto;
         .lista-icons-dev, .lista-icons-dev{
             flex-wrap: wrap;
             align-items: center;
