@@ -31,3 +31,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 960px){
+    #trajetoria{
+        text-align: center;
+        .tipo{
+            flex-direction: column;
+            .area-profissional, .academica{
+                width: 100%;
+            }
+        }
+    }
+}

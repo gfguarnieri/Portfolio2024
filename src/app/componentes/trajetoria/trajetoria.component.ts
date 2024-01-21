@@ -69,7 +69,7 @@ export class TrajetoriaComponent {
       titulo: 'Etec Sales Gomes',
       dataInicio: new Date('2014-02-03'),
       ativo: true,
-      descricao: 'Professor de Programação e Aplicativos Mobile, Programação e Algoritmos, Banco de Dados Relacional, Programação Web e Qualidade e Teste de Software. Além disso também atuei como coordenador do curso de Informática para Internet'
+      descricao: 'Professor de Programação e Aplicativos Mobile, Programação e Algoritmos, Banco de Dados Relacional, Programação Web e Qualidade e Teste de Software. '
     },
     {
       titulo: 'Cenaic',
