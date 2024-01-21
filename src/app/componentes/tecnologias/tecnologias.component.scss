@@ -25,3 +25,13 @@
         }
     }
 }
+
+@media only screen and (max-width: 960px){
+    #skills{
+        .lista-icons-dev, .lista-icons-dev{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
