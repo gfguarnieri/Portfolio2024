@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: 🚀 Build and Deploy
 
 on:
   push:
@@ -24,8 +24,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4
+      - name: 🚀 Deploy via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
