@@ -60,16 +60,23 @@ export class TrajetoriaComponent {
 
   public experienciaProfissionalList: ItemTrajetoria[] = [
     {
-      titulo: 'Tecnologia Única',
-      dataInicio: new Date('2022-08-15'),
+      titulo: 'Goomer',
+      dataInicio: new Date('2025-04-07'),
       ativo: true,
-      descricao: 'Desenvolvedor full-stack Pleno atuando com: ASP.NET · ASP.NET MVC · Microsoft SQL Server · TypeScript · Angular · C# · Ionic Framework'
+      descricao: 'Desenvolvedor backend Pleno atuando com: NodeJS · AWS · PostgreSQL · PHP · Yii2 · MySql'
     },
     {
       titulo: 'Etec Sales Gomes',
       dataInicio: new Date('2014-02-03'),
       ativo: true,
       descricao: 'Professor de Programação e Aplicativos Mobile, Programação e Algoritmos, Banco de Dados Relacional, Programação Web e Qualidade e Teste de Software. '
+    },
+    {
+      titulo: 'Tecnologia Única',
+      dataInicio: new Date('2022-08-15'),
+      dataFim: new Date('2025-04-04'),
+      ativo: false,
+      descricao: 'Desenvolvedor full-stack Pleno atuando com: ASP.NET · ASP.NET MVC · Microsoft SQL Server · TypeScript · Angular · C# · Ionic Framework'
     },
     {
       titulo: 'Cenaic',
