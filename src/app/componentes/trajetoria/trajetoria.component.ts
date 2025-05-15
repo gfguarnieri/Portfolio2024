@@ -79,6 +79,13 @@ export class TrajetoriaComponent {
       descricao: 'Desenvolvedor full-stack Pleno atuando com: ASP.NET · ASP.NET MVC · Microsoft SQL Server · TypeScript · Angular · C# · Ionic Framework'
     },
     {
+      titulo: 'Google',
+      dataInicio: new Date('2010-01-01'),
+      dataFim: new Date('2015-12-31'),
+      ativo: false,
+      descricao: 'Back-end Developer atuando com desenvolvimento de sistemas e aplicações de alta escala.'
+    },
+    {
       titulo: 'Cenaic',
       dataInicio: new Date('2012-01-01'),
       dataFim: new Date('2014-01-01'),
